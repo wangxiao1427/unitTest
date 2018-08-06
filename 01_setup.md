@@ -1,5 +1,5 @@
 mocha在js中的应用
-- 安装模块
+- 安装模块  
   npm install mocha  
 - 测试脚本
   目录结构:
@@ -35,7 +35,7 @@ mocha在js中的应用
   `describe`块称为“测试套件”，表示一组相关的测试。  
   `it`块称为“测试用例”，表示一个单独的测试，是测试的最小单位  
   `*.test.js`文件是测试用例代码文件，mocha会从*.test.js文件中执行测试用例代码  
-- 运行
+- 运行  
   `cd ./mocha_test`
   `$mocha add.test.js`
   * 如果 $mocha命令没有在系统环境变量path中配置路径时会报错，此时应在环境变量path中添加路径`C:\CODE\mocha-demos\node_modules\.bin`，bin是安装的mocha模块文件可执行路径。  
