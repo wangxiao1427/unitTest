@@ -36,7 +36,7 @@ mocha在js中的应用
   `it`块称为“测试用例”，表示一个单独的测试，是测试的最小单位  
   `*.test.js`文件是测试用例代码文件，mocha会从*.test.js文件中执行测试用例代码  
 - 运行  
-  `cd ./mocha_test`
+  `cd ./mocha_test`  
   `$mocha add.test.js`
   * 如果 $mocha命令没有在系统环境变量path中配置路径时会报错，此时应在环境变量path中添加路径`C:\CODE\mocha-demos\node_modules\.bin`，bin是安装的mocha模块文件可执行路径。  
   * 默认的测试用例脚本放在test目录下，如果有大量脚本需要同时执行，可以执行脚本：
@@ -50,12 +50,12 @@ mocha在js中的应用
   beforeEach:在本区块的每个测试用例之前执行   
   其他类似。
   * 浏览器测试  
-  1\.初始化目录 `mocha init test-dir`    
+  1\.初始化目录  `mocha init test-dir`    
   2\.在tests.js中添加单元测试脚本  
   3\.在index.html中假如断言库chai.js、引用需要测试的代码文件  
   4\.在浏览器打开index.html，会执行测试脚本。
   * 生成格式化文档  
-  1\.markdown
+  1\.markdown  
   `mocha --recursive -R markdown > spec.md`  
-  2\.html
+  2\.html  
   `mocha --recursive -R doc > spec.html`
