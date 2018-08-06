@@ -43,18 +43,18 @@ mocha在js中的应用
   `mocha`或`npm test`(此时package.json中应配置scripts.test = "mocha")
   * 还支持运行通配符以及各种参数  
   * 异步测试
-  * 测试用例钩子
+  * 测试用例钩子  
   before/after/beforeEach/afterEach  
 
   before:在本区块的所有测试用例之前执行  
   beforeEach:在本区块的每个测试用例之前执行   
   其他类似。
-  * 浏览器测试
+  * 浏览器测试  
   1\.初始化目录 `mocha init test-dir`    
   2\.在tests.js中添加单元测试脚本  
   3\.在index.html中假如断言库chai.js、引用需要测试的代码文件  
   4\.在浏览器打开index.html，会执行测试脚本。
-  * 生成格式化文档
+  * 生成格式化文档  
   1\.markdown
   `mocha --recursive -R markdown > spec.md`  
   2\.html
