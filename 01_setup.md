@@ -3,7 +3,7 @@ mocha在js中的应用
   npm install mocha  
 - 测试脚本
   目录结构:
-  >mocha_test
+  >mocha_test  
   > &nbsp;&nbsp;|- test
   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- add.js  
   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- add.test.js  
